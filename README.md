@@ -27,16 +27,14 @@ Instale as dependências:
 
 ```bash
 pip install customtkinter PyPDF2
+```
 E depois execute:
 
-bash
-Copiar
-Editar
+```bash
 python main.py
+```
 🖼 Estrutura do Projeto
-arduino
-Copiar
-Editar
+```bash
 MESCLAR PDF/
 ├── build/
 │   └── main/ (arquivos de build do PyInstaller)
@@ -46,14 +44,13 @@ MESCLAR PDF/
 ├── main.py (código-fonte principal)
 ├── main.spec (configuração do PyInstaller)
 └── README.md (este arquivo)
+```
 🛠 Gerar o Executável Manualmente (opcional)
 Para gerar o .exe novamente:
 
-''' bash
-Copiar
-Editar
+```bash
 pyinstaller --noconfirm --onefile --windowed --icon=app.ico main.py
+```
 Isso vai gerar o executável em dist/main.exe.
-
 👤 Autor
 Desenvolvido por Vinicius Silva Lima — Sistema para mesclagem de PDFs com visual moderno e intuitivo.
